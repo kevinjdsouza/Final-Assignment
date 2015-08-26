@@ -1,0 +1,126 @@
+body  {
+	background-color:#D0D0D0;
+	font-family: Arial, 'sans serif';
+	color: #666666;
+	
+}
+
+p {
+	padding-bottom: 10px;
+}
+
+strong { 
+    font-weight: bold;
+    color: black;
+}
+
+.page-align{
+	width: 60em;
+	margin: 0 auto;
+}
+
+h1{font-size:3em; font-weight: 600; padding-bottom: 10px; color: black; line-height:1em;}
+h2{font-size:2em; font-weight: 700; padding:0 0 20px 0; color:#4EAAE4; line-height:1em;}
+
+/* Header*/
+
+.mainmenu {
+	/*background-color: white;*/
+	padding: 0 0;
+	overflow: hidden;
+	float: right;
+}
+
+.mainmenu li{
+	display: inline-block;
+	padding:0 20px 0 0;
+	font-size: 1em;
+	
+}
+
+/* Main Section*/
+
+.main-banner{
+	width: 60em;
+	height: 20em;
+	background-color: black;
+	float: left;
+	overflow: hidden;
+}
+
+.aboutcont{
+	width: 60em;
+	height: auto;
+	overflow: hidden;
+}
+
+	.aboutcont .left-cont{
+		width: 57%;
+		float: left;
+		mar :2%;
+	}
+
+	.aboutcont .right-cont{
+		width: 35%;
+		float:left;
+		margin:2%;
+		
+	}
+
+	.aboutcont .right-cont li {
+	border-bottom: 0.1em grey dashed;
+	padding-bottom: 0.5em;
+	margin-bottom: 1em;
+	overflow: hidden;
+
+	}
+
+.portfoliocont{
+	width: 60em;
+	height: auto;
+	overflow: hidden;
+}
+
+	.portfoliocont .thumbs {
+		width: 50%;
+		float: left;
+		/*background-color: #D0D8DF;*/
+		margin-bottom: 100px;
+
+	}
+
+	.portfoliocont .thumbs li {
+		width: 90px;
+		height: 80px;
+		float: left;
+		background-color:black;
+		margin:5px 5px 5px 5px;
+		color: grey;
+		text-align: center;
+		padding: 15px 0;
+	}
+
+
+	.portfoliocont .big-imgs {
+		width: 50%;
+		height: 360px;
+		float:left; 
+		background-color:black;
+	}
+
+.contactcont{
+	width: 60em;
+	height: auto;
+	overflow: hidden;
+}
+
+
+.footer {
+	border-top: 0.1em grey dashed;
+float: left;
+width: 100%;
+display: inline;
+margin: 20px 0;
+padding: 20px 0;
+font-size: 12px;
+}
